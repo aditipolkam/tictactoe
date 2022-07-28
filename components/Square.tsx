@@ -4,7 +4,7 @@ function Square ({value, onClick, winner}
 : {
     winner:Player,
     value: Player,
-    onClick: () => void
+    onClick: () => void;
 }) {
     if(!value){
         return <button className="square" onClick={onClick} disabled={Boolean(winner)} />;

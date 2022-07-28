@@ -17,7 +17,7 @@
 }
 
 .square_x {
-  background-color: crimson;
+  background-color: rgb(203, 36, 145);
 }
 
 p {
@@ -32,4 +32,8 @@ p {
   padding: 0.5rem;
   cursor: pointer;
   border-radius: 6px;
+}
+
+.winner {
+  color: rgb(255, 13, 0);
 }
