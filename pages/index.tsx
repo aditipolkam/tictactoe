@@ -13,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <div className='game-name'>TicTacToe</div>
         <Board/>
       </main>
 

@@ -27,7 +27,7 @@ p {
 .reset {
   margin-top: 2rem;
   font-size: 1.5rem;
-  background-color: aqua;
+  background-color: darkorange;
   border: none;
   padding: 0.5rem;
   cursor: pointer;
@@ -36,4 +36,12 @@ p {
 
 .winner {
   color: rgb(255, 13, 0);
+}
+
+.game-name {
+  font-size: 4rem;
+  text-align: center;
+  color: darkorange;
+  font-weight: 600;
+  text-shadow: rgb(26, 25, 25) 1px 1px 2px;
 }
