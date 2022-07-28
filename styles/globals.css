@@ -22,6 +22,8 @@
 
 p {
   font-size: 2rem;
+  text-shadow: rgb(26, 25, 25) 0px 0px 2px;
+  color: darkgreen;
 }
 
 .reset {
@@ -29,12 +31,12 @@ p {
   font-size: 1.5rem;
   background-color: darkorange;
   border: none;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 6px;
 }
 
-.winner {
+.winner p {
   color: rgb(255, 13, 0);
 }
 
@@ -44,4 +46,11 @@ p {
   color: darkorange;
   font-weight: 600;
   text-shadow: rgb(26, 25, 25) 1px 1px 2px;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

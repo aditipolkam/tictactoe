@@ -59,7 +59,7 @@ function Board () {
     });
 
     return (
-    <div>
+    <div className='board'>
         {!winner &&<p>{currentPlayer} its your turn.</p>}
         <div className='winner'>{winner && <p>Congratulations {winner}</p>}</div>
         <div className="grid">
