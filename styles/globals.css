@@ -22,7 +22,7 @@
 
 p {
   font-size: 2rem;
-  text-shadow: rgb(26, 25, 25) 0px 0px 2px;
+  font-weight: 500;
   color: darkgreen;
 }
 

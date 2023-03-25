@@ -40,8 +40,7 @@ function Board () {
         setCurrentPlayer(currentPlayer === 'X' ? 'O' : 'X');
     }
 
-    
-    
+
     function reset(){
         setSquares(Array(9).fill(null));
         setWinner(null);
